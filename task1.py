@@ -1,1 +1,1 @@
-print("Hello world_task1!\nHello world!\nHello world!")
+print("Hello world!\nHello world!\nHello world!")
