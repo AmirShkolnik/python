@@ -5,4 +5,4 @@ weight = 84
 # Calculate the bmi using weight and height.
 bmi = (weight / (height * height))
 
-print(bmi)
+print(round(bmi, 2))
