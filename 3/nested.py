@@ -11,5 +11,6 @@ if height >= 120:
         print("Your ticket cost $7.")
     else:
         print("Your ticket cost $12.")
+    print(input("Do you want photos? "))
 else:
     print("Sorry you have to grow taller before you can ride.")
