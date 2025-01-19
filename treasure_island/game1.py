@@ -18,7 +18,8 @@ ____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
 ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/
 *******************************************************************************''')
-print('Welcome to Treasure Island.\nYour mission is to find the treasure.\nYou\'re at a cross road.\nWhere do you want to go?\n')
+print('Welcome to Treasure Island.\nYour mission is to find the treasure.\n'
+      'You\'re at a cross road.\nWhere do you want to go?\n')
 choice1_direction = input('Type "left" or "right"\n').lower()
 
 if choice1_direction == "left":
