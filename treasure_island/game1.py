@@ -32,7 +32,7 @@ if choice1_direction == "left":
         elif choice3_door == "Yellow":
             print("You Win!")
         else:
-            print("Game Over.")
+            print("Game Over. You chose a door that doesn't exist.")
     else:
         print("Attacked by trout.\nGame Over.")
 else:
