@@ -23,7 +23,17 @@ direction = input("Type left or right\n")
 
 if direction == "left":
     left = input("Type Swim or Wait\n")
-    
-
+    if left == "wait":
+        door = input("Which door? Blue, Yellow or Red\n")
+        if door == "Blue":
+            print("Eaten by beasts.\nGame Over.")
+        elif door == "Red":
+            print("Burned by fire.\nGame Over.")
+        elif door == "Yellow":
+            print("You Win!")
+        else:
+            print("Game Over.")
+    else:
+        print("Attacked by trout.\nGame Over.")
 else:
     print("Fall into a hole.\nGame Over.")
