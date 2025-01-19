@@ -22,7 +22,7 @@ print('Welcome to Treasure Island.\nYour mission is to find the treasure.\nYou\'
 choice1_direction = input('Type "left" or "right"\n').lower()
 
 if choice1_direction == "left":
-    choice2_left = input("Type Swim or Wait\n")
+    choice2_left = input("Type Swim or Wait\n").lower()
     if choice2_left == "wait":
         choice3_door = input("Which door? Blue, Yellow or Red\n").lower()
         if choice3_door == "Blue":
