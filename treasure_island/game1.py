@@ -36,4 +36,4 @@ if choice1_direction == "left":
     else:
         print("Attacked by trout.\nGame Over.")
 else:
-    print("Fall into a hole.\nGame Over.")
+    print('Invalid direction. You must choose "left" or "right". Game Over.')
