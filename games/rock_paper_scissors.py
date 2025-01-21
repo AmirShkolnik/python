@@ -27,4 +27,4 @@ scissors = '''
 '''
 rock_paper_scissors_symbols = [rock, paper, scissors]
 selected_symbol = random.choice(rock_paper_scissors_symbols)
-print(rock_paper_scissors_symbols)
+print(selected_symbol)
