@@ -3,9 +3,6 @@ import random
 
 friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
 
-# option number 1
-print(random.choice(friends))
+random_friend = random.choice(friends)
 
-# optin number 2
-random_index = random.randint(0, 4)
-print(friends[random_index])
+print(random_friend)
