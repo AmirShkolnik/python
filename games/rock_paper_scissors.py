@@ -27,4 +27,10 @@ scissors = '''
 '''
 rock_paper_scissors_symbols = [rock, paper, scissors]
 selected_symbol = random.choice(rock_paper_scissors_symbols)
-print(selected_symbol)
+user_choice = input('Type 0 for rock, 1 for paper or 2 for scissors:\n').lower()
+valid_choice = = [0 rock, paper, scissors]
+
+
+
+print(f'You chose:\n{rock_paper_scissors_symbols[user_choice]}')
+
