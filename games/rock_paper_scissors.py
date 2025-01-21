@@ -27,3 +27,4 @@ scissors = '''
 '''
 rock_paper_scissors_symbols = [rock, paper, scissors]
 rock_paper_scissors_symbols_index = random.choice(rock_paper_scissors_symbols)
+print(rock_paper_scissors_symbols)
