@@ -25,3 +25,4 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+rock_paper_scissors_symbols = [rock, paper, scissors]
