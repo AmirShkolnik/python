@@ -31,7 +31,7 @@ user_choice = input('What do you choose?\n'
                     '2 for Scissors.\n')
 print(f'You chose : {user_choice}')
 computer_choice = random.randint(0, 2)
-
+print(f'Computer chose : {computer_choice}')
 
 
 
