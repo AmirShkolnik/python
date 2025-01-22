@@ -29,20 +29,21 @@ game_symbols = [rock, paper, scissors]
 user_choice = int(input('What do you choose?\n'
                     'Type 0 for Rock, 1 for Paper,'
                     '2 for Scissors.\n'))
-print(f'You chose : {user_choice}')
-print(game_symbols[user_choice])
-computer_choice = random.randint(0, 2)
-print(f'Computer chose: {computer_choice}')
-print(game_symbols[computer_choice])
+if user_choice in [0, 1, 2]:
+    print(f'You chose : {user_choice}')
+    print(game_symbols[user_choice])
+    computer_choice = random.randint(0, 2)
+    print(f'Computer chose: {computer_choice}')
+    print(game_symbols[computer_choice])
 
-if computer_choice == user_choice:
-    print("It's a draw")
-elif computer_choice > user_choice:
-    print("You lose!")
+    if computer_choice == user_choice:
+        print("It's a draw")
+    elif computer_choice > user_choice:
+        print("You lose!")
+    else:
+        print("You Win!")
 else:
-    print("You Win!")
-
-
+    print("You typed an invalid number. You lose!")
 
 
 
