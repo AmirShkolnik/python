@@ -30,6 +30,7 @@ user_choice = input('What do you choose?\n'
                     'Type 0 for Rock, 1 for Paper,'
                     '2 for Scissors.\n')
 print(f'You chose : {user_choice}')
+computer_choice = random.randint(0, 2)
 
 
 
