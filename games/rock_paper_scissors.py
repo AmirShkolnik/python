@@ -37,8 +37,8 @@ print(game_symbols[computer_choice])
 
 if computer_choice == user_choice:
     print("It's a draw")
-    if computer_choice > user_choice:
-        print("Computer Wins!")
+elif computer_choice > user_choice:
+    print("You lose!")
 else:
     print("You Win!")
 
