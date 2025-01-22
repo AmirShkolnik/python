@@ -33,3 +33,5 @@ print(f'PC chose:\n{computer_choice}')
     
 if computer_choice > user_choice:
     print("Computer wins")
+else:
+    print("You win")
