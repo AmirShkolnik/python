@@ -33,6 +33,7 @@ print(f'You chose : {user_choice}')
 print(game_symbols[user_choice])
 computer_choice = random.randint(0, 2)
 print(f'Computer chose: {computer_choice}')
+print(game_symbols[computer_choice])
 
 if computer_choice == user_choice:
     print("It's a draw")
