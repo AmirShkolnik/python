@@ -35,7 +35,6 @@ if user_choice in [0, 1, 2]:
     computer_choice = random.randint(0, 2)
     print(f'Computer chose: {computer_choice}')
     print(game_symbols[computer_choice])
-
     if computer_choice == user_choice:
         print("It's a draw")
     elif (user_choice == 0 and computer_choice == 2) or \
