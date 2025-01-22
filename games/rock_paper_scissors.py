@@ -32,7 +32,12 @@ user_choice = input('What do you choose?\n'
 print(f'You chose : {user_choice}')
 computer_choice = random.randint(0, 2)
 print(f'Computer chose : {computer_choice}')
-
+if computer_choice == user_choice:
+    print("It's a draw")
+    if computer_choice > user_choice:
+        print("Computer Wins!")
+else:
+    print("You Win!")
 
 
 
