@@ -38,10 +38,13 @@ if user_choice in [0, 1, 2]:
 
     if computer_choice == user_choice:
         print("It's a draw")
-    elif computer_choice > user_choice:
-        print("You lose!")
-    else:
+    elif (user_choice == 0 and computer_choice == 2) or \
+    (user_choice == 1 and computer_choice == 0) or \
+    (user_choice == 2 and computer_choice == 1):
+        
         print("You Win!")
+    else:
+        print("You Lose!")
 else:
     print("You typed an invalid number. You lose!")
 
