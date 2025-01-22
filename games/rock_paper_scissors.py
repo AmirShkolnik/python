@@ -25,13 +25,15 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-
-user_choice = input('What do you choose?\n'
+game_symbols = [rock, paper, scissors]
+user_choice = int(input('What do you choose?\n'
                     'Type 0 for Rock, 1 for Paper,'
-                    '2 for Scissors.\n')
+                    '2 for Scissors.\n'))
 print(f'You chose : {user_choice}')
+print(game_symbols[user_choice])
 computer_choice = random.randint(0, 2)
-print(f'Computer chose : {computer_choice}')
+print(f'Computer chose: {computer_choice}')
+
 if computer_choice == user_choice:
     print("It's a draw")
     if computer_choice > user_choice:
